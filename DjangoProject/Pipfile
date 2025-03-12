@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+spacy = "*"
+django-cors-headers = "*"
+matplotlib = "*"
+mysqlclient = "*"
+ipython = "*"
+django-jet-reboot = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
